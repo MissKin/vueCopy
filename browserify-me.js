@@ -1,5 +1,5 @@
-var waterMarker = require('./vue-waterMark.js')
+var vueCopy = require('./vue-copy.js')
 
-global.waterMarker = waterMarker
+global.copy = vueCopy
 
-window.Vue && global.Vue.use(waterMarker)
+window.Vue && global.Vue.use(vueCopy)

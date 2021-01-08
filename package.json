@@ -1,16 +1,16 @@
 {
-  "name": "waterMarker",
+  "name": "vueCopy",
   "version": "0.1.0",
-  "description": "添加水印",
+  "description": "复制问本",
   "keyword": "headerlink",
   "author": "Aurora",
   "private": false,
-  "main": "vue-waterMark.js",
+  "main": "vue-copy.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-lib": "browserify browserify-me.js -o lib/vue-waterMark.js  && echo Success"
+    "build-lib": "browserify browserify-me.js -o lib/vue-copy.js  && echo Success"
   },
   "dependencies": {
     "core-js": "^3.6.4",
